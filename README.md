@@ -43,7 +43,7 @@ Ce projet est né d'un besoin spécifique : faire fonctionner le suivi de glycé
 
 ## 📜 Crédits & Remerciements
 - **[pajonp/pylibrelinkup](https://github.com/pajonp/pylibrelinkup)** : Pour la bibliothèque Python qui gère l'API LibreLinkUp.
-- **Assistance IA** : Ce widget a été développé avec l'aide de ChatGPT pour la correction des erreurs VPN et l'interface Tkinter.
+- **Assistance IA** : Ce widget a été développé avec l'aide de Gemini 3 Flash pour la correction des erreurs VPN et l'interface Tkinter.
 
 ## ⚖️ Licence
 Ce projet est distribué sous la licence **MIT**. Vous pouvez l'utiliser, le modifier et le partager librement.
