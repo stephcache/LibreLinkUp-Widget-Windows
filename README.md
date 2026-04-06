@@ -1,20 +1,22 @@
-# Windows LibreLinkUp Widget (VPN Friendly)
+# Widget Glycémie LibreLinkUp pour Windows 🩸
 
-Un petit widget discret pour Windows 11 qui affiche la glycémie en temps réel depuis LibreLinkUp.
+Ce petit widget discret permet d'afficher votre glycémie en temps réel directement sur votre bureau Windows 10 ou 11.
 
-### Caractéristiques :
-- **Anti-blocage VPN** : Utilise des headers spécifiques pour éviter l'erreur 401/919.
-- **Toujours au-dessus** : Reste visible par-dessus vos fenêtres.
-- **Discret** : Pas de bordures Windows, fond noir, déplaçable à la souris.
-- **Alertes couleurs** : Change de couleur selon le taux (Rouge/Vert/Jaune).
+Il a été spécialement optimisé pour fonctionner en France et même si vous utilisez un **VPN** (correction des erreurs de connexion 401/919).
 
-### Installation :
-1. Installez Python.
-2. Installez la bibliothèque nécessaire : `pip install pylibrelinkup`.
-3. Téléchargez le script `.pyw`.
-4. Éditez le fichier avec votre email et mot de passe LibreLinkUp.
-5. Lancez le fichier !
+## ✨ Caractéristiques
+- **Anti-blocage VPN** : Configuration spécifique pour éviter les rejets des serveurs d'Abbott.
+- **Toujours visible** : Reste au-dessus des autres fenêtres (Always on top).
+- **Interface discrète** : Sans bordures, fond noir, déplaçable à la souris.
+- **Alertes couleurs** : 
+  - 🔴 Rouge : < 70 mg/dL (Hypo)
+  - 🟡 Jaune : > 180 mg/dL (Hyper)
+  - 🟢 Vert : Glycémie normale
+- **Mode discret** : Se lance sans fenêtre de commande (format `.pyw`).
 
-### Comment l'utiliser :
-- **Déplacer** : Cliquez et glissez le widget n'importe où.
-- **Fermer** : Cliquez sur le "X" en haut à droite.
+## 🚀 Installation
+
+1. **Installer Python** : Téléchargez-le sur [python.org](https://www.python.org/) (cochez bien "Add Python to PATH").
+2. **Installer la bibliothèque** : Ouvrez un terminal (CMD) et tapez :
+   ```bash
+   pip install pylibrelinkup
