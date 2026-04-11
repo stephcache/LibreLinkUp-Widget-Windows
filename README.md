@@ -41,6 +41,18 @@ Ce projet est né d'un besoin spécifique : faire fonctionner le suivi de glycé
 - **Déplacer** : Cliquez n'importe où sur le widget avec le bouton gauche et glissez.
 - **Quitter** : Cliquez sur la petite croix `×` en haut à droite.
 
+## ⚙️ Lancer le widget au démarrage de Windows
+
+Pour que votre glycémie s'affiche automatiquement dès que vous allumez votre PC :
+
+1. Appuyez sur les touches `Windows + R` de votre clavier.
+2. Tapez `shell:startup` et appuyez sur **Entrée**. Cela ouvre le dossier "Démarrage".
+3. Faites un **clic droit** sur votre fichier `glycemie_widget.pyw` et choisissez **"Créer un raccourci"**.
+4. **Copiez-collez** ce raccourci dans le dossier "Démarrage" que vous venez d'ouvrir.
+
+Désormais, le widget se lancera tout seul à chaque ouverture de session !
+
+
 ## 📜 Crédits & Remerciements
 - **[pajonp/pylibrelinkup](https://github.com/pajonp/pylibrelinkup)** : Pour la bibliothèque Python qui gère l'API LibreLinkUp.
 - **Assistance IA** : Ce widget a été développé avec l'aide de Gemini 3 Flash pour la correction des erreurs VPN et l'interface Tkinter.
